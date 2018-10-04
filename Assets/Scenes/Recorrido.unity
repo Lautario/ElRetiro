@@ -1374,6 +1374,7 @@ MonoBehaviour:
   Pagina: {fileID: 786317917}
   Pagina2: {fileID: 0}
   SlideOne: {fileID: 0}
+  helpAnimator: {fileID: 1490306205}
 --- !u!114 &1127497740
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -10,8 +10,12 @@ public class RecorridoControl : MonoBehaviour {
     public GameObject SlideOne;
     private RectTransform X;
 
+    public Animator helpAnimator;
+
     private bool state;
     private bool state2;
+
+    private bool firstEnter = true;
 
     // Use this for initialization
     void Start()
@@ -23,8 +27,14 @@ public class RecorridoControl : MonoBehaviour {
 
 	// Update is called once per frame
 	void Update () {
-		
-	}
+        if(firstEnter)
+        {
+            print("holi");
+            helpAnimator.Play("Intro");
+            firstEnter = false;
+        }
+
+    }
 
     public void Atras()
     {
