@@ -60,6 +60,21 @@ public class RecorridoControl : MonoBehaviour {
     {
         SceneManager.LoadScene(3);
     }
+
+    public void ToChurch()
+    {
+        SceneManager.LoadScene(9);
+    }
+    public void ToMenu()
+    {
+        SceneManager.LoadScene(5);
+    }
+
+    public void ToDonPepe()
+    {
+        SceneManager.LoadScene(7);
+    }
+
     public void P1()
     {
         Pagina.SetActive(false);
